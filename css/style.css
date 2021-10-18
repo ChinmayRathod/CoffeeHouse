@@ -1,0 +1,21 @@
+:root{
+    --primary_dark : black;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.accent-text{
+    font-family: 'Black Ops One', cursive;
+}
+h1{
+    font-size: 100%;
+    transform: rotate(-2deg);
+}
+.company-name{
+    text-align: center;
+    color: white;
+    background-color: black;
+    clip-path: polygon(0% 0% , 100% 0% , 100% 70% ,0% 100%);
+}
