@@ -1,13 +1,26 @@
 .select_menu{
     margin-top: -5px;
     display: flex;
-    gap: 2%;
+    gap: 3%;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 40px;
     width: 100%;
     background-color: black;
     color: white;
+}
+@media  screen and (max-width : 600px) {
+    .select_menu{
+        margin-top: -5px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 40px;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
 }
 .item{
     text-decoration: none;

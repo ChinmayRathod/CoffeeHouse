@@ -10,8 +10,7 @@ body{
     width: 100%;
 }
 .front{
-  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255, 255, 255,0.3)),url(https://unsplash.com/photos/aPgKh5M8CIs/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NHx8Y29mZmVlJTIwaG91c2V8fDB8fHx8MTYzNDYzMDIxNQ&force=true);
-  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255, 255, 255,0.3)),url(../images/bgwebfinal.jpg);
   background-position: center;
   background-size: cover;
     padding-top: 10%;
@@ -69,7 +68,6 @@ body{
     border-radius: 25px;
     font-size: 100%;
     text-transform: uppercase;
-    box-shadow: 0px 0px 20px black;
     background-color: black;
     font-family: 'Black Ops One', cursive;
     color: white;
