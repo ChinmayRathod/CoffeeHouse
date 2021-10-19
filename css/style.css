@@ -6,11 +6,20 @@
     padding:0;
     box-sizing:border-box;
 }
+.front{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(https://media.istockphoto.com/photos/blurred-images-of-restaurant-and-coffee-shop-cafe-interior-background-picture-id1287029258?s=612x612);
+}
 .accent-text{
     font-family: 'Black Ops One', cursive;
+    font-size: 4rem;
+    text-transform: uppercase;
 }
 h1{
-    font-size: 100%;
+    font-size: 4rem;
     transform: rotate(-2deg);
 }
 .company-name{
@@ -18,4 +27,15 @@ h1{
     color: white;
     background-color: black;
     clip-path: polygon(0% 0% , 100% 0% , 100% 70% ,0% 100%);
+}
+.accent-text .slogan{
+    text-align: center;
+    max-width: 90%;
+    font-family: 'Black Ops One', cursive;
+    color: white;
+}
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 10vw;
+    }
 }
