@@ -150,3 +150,11 @@ background: radial-gradient(circle, rgba(128,0,32,1) 0%, rgba(0,0,0,1) 100%);
     color: black;
     text-decoration: underline;
   }
+  #triangle {
+    border-right: 10px solid; 
+    border-bottom: 10px solid;
+    height: 30px;
+    width: 30px;
+    transform: translateX(-50%) rotate(45deg);
+    margin: 0% 50%;
+  }
