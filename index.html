@@ -1,23 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Corben:wght@700&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/selection.css">
+        <link rel="stylesheet" href="css/foodmenu.css">
+        <script src="javascript/form.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Corben:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee House</title>
-</head>
-<body>
-    <div class="container">
-        <div class="front">
-            <div class="company-name accent-text">
-                <h1>COFFEE SHOP</h1>
+        <title>
+            project cafe
+        </title>
+    </head>
+    <body>
+        <div class="form-popup" id="myForm">
+
+            <form action="" class="form-container">
+
+                <div class="formtext">Coffee house</div>
+                <label for="name" class="label"><b>please enter you name</b></label>
+                <input type="text" placeholder="Enter your name" name="name" required>
+          
+                <label for="time" class="label"><b>Please enter the time</b></label>
+                <input type="text" placeholder="Enter the time of arrival" name="time" required>
+                
+                <label for="people" class="label"><b>Please enter the number of seats</b></label>
+                <input type="number" min="1" placeholder="Enter the number of seats" name="people" required>
+          
+                <button type="submit" class="btn label">Confirm Reservation</button><br>
+                <button type="button" class="btn cancel label" onclick="closeForm()">Cancel</button>
+
+            </form>
+
+        </div> 
+
+        <div class="form-popup" id="tyForm">
+
+            <form action="" class="form-container">
+
+                <div class="formtext">Coffee house</div>
+                <button type="button" class="btn cancel label" onclick="closetyform()">ok</button>
+
+            </form>
+
+        </div> 
+
+
+
+    <div class="front">
+
+        <div class="tagline">
+
+            <div class="logo"></div>
+            <div class="text">by the foodies<br>for the foodies<br>with the foodies!!!</div>
+            <div class="order">
+
+                <button type="button" onclick="alert('hi')" class="waytoorder">takeaway</button>
+                <button type="button" onclick="alert('hi')" class="waytoorder">delivery</button>
+                <button type="button" onclick="openForm()" class="waytoorder">book a table</button>
+
             </div>
-            <div class="accent-text"><div class="slogan">by the foodies,<br>for the foodies,<br>with the foodies!!!</div></div>
+
         </div>
+
     </div>
-</body>
+
+
+
+        <div class="select_menu">
+
+            <a href="#">
+
+                <div class="item">
+
+                    <img src="images/coffee.png">
+                    <div class="itemtitle">
+
+                        <h3 class="itemname">beverages</h3>
+                        <p class="subtypes">11 items</p>
+
+                    </div>
+
+                </div>
+
+            </a>
+
+            <a href="#">
+
+                <div class="item">
+
+                    <img src="images/eggsbenedict.jfif">
+                    <div class="itemtitle">
+
+                        <h3 class="itemname">Eggs</h3>
+                        <p class="subtypes">20 items</p>
+
+                    </div>
+
+                </div>
+
+            </a>
+
+            <a href="#">
+
+                <div class="item">
+
+                    <img src="images/waffle.jpg">
+                    <div class="itemtitle">
+
+                        <h3 class="itemname">waffles</h3>
+                        <p class="subtypes">13 items</p>
+
+                    </div>
+
+               </div>
+
+            </a>
+
+            <a href="#">
+
+                <div class="item">
+
+                    <img src="images/pizza.jfif">
+                    <div class="itemtitle">
+
+                        <h3 class="itemname">Pizza</h3>
+                        <p class="subtypes">8 items</p>
+
+                    </div>
+
+                </div>
+
+            </a>
+
+        </div>
+    </body>
 </html>
