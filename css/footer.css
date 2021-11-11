@@ -1,0 +1,11 @@
+footer{
+    border-top: 2px solid white;
+    background-color: black;
+    color:white;
+    height: 10%;
+    padding: 5%;
+}
+#creator{
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+}
